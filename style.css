@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightblue;
+}
+.loginPage{
+    border: solid #000000;
+    padding: 1em;
+    width: 300px;
+    background-color: aliceblue;
+    border: transparent;
+    height: 380px;
+    box-shadow: 10px 5px 5px rgb(180, 180, 251);
+}
+.loginPic{
+    /* border: solid green; */
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.pic{
+    height: 50px;
+    width: 50px;
+}
+.loginContainer{
+    /* border: solid red; */
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    margin-top: 10%;
+}
+.registrationPage{
+    /* border: solid red; */
+    padding: 1em;
+    width: 450px;
+    background-color: aliceblue;
+    border: transparent;
+    height: 500px;
+    box-shadow: 10px 5px 5px rgb(180, 180, 251);
+}
+.regContainer{
+    /* border: solid red; */
+    text-align: center;
+    height: 450px;
+}
+.loginTitle{
+    font-family: 'Times New Roman', Times, serif;
+    color: navy;
+}
+.regTitle{
+    font-family: 'Times New Roman', Times, serif;
+    color: navy;
+}
